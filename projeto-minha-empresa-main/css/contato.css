@@ -1,0 +1,25 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 20px 150;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+
+& .telefone{
+    display: flex;
+    flex-direction: center;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+& .mail {
+  display: flex;
+  flex-direction: center;
+  gap: 25px;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;  
+}
+}
