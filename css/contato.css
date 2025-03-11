@@ -1,0 +1,31 @@
+.contato img {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 39px;
+    padding: 0px;
+    font-family:"Inter",sans-serif;
+
+    & .container {
+      display: flex;
+      gap: 15px;
+
+      .email {
+        display: flex;
+        gap: 15px;
+        font-family: "Jacques Francois regular", sans-serif;
+        text-decoration: none;
+        justify-content: center;
+        color: #000000;
+        font-weight: strong;
+      }
+
+      .telefone {
+        display: flex;
+        gap: 15px;
+        font-family: "Inter" Bold italic, sans-serif;
+        color: #000000;
+      }
+
+    }
+}
